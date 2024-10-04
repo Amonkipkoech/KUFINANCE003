@@ -1,0 +1,1807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>a0da0b61-ffa2-43b1-be75-d05107ff7793</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>0.95833in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.5in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.9375in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.08333in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.95834in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox2">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Vote No</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#7292cc</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Surrender Details</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox4</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#7292cc</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox9">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Amount </Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox9</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#7292cc</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox11">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Actual Spent </Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox11</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#7292cc</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox5">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Cash Surrender Amount</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox5</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#7292cc</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="No_ImprestSurrenderHeader">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!AccountNo_ImprestSurrenderDetails.Value</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <Color>#4d4d4d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>No_ImprestSurrenderHeader</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="AccountName_ImprestSurrenderDetails">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!AccountName_ImprestSurrenderDetails.Value</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <Color>#4d4d4d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>AccountName_ImprestSurrenderDetails</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Amount_ImprestSurrenderDetails">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Amount_ImprestSurrenderDetails.Value</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                    <Color>#4d4d4d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Amount_ImprestSurrenderDetails</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="ActualSpent_ImprestSurrenderDetails">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!ActualSpent_ImprestSurrenderDetails.Value</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                    <Color>#4d4d4d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>ActualSpent_ImprestSurrenderDetails</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="CashReceiptAmount_ImprestSurrenderDetails">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!CashReceiptAmount_ImprestSurrenderDetails.Value</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>CashReceiptAmount_ImprestSurrenderDetails</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox15">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Totals</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#4d4d4d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox15</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>2</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox18">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Sum(Fields!Amount_ImprestSurrenderDetails.Value)</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                    <TextDecoration>Underline</TextDecoration>
+                                    <Color>#4d4d4d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox18</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox19">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Sum(Fields!ActualSpent_ImprestSurrenderDetails.Value)</Value>
+                                  <Style>
+                                    <FontFamily>Tahoma</FontFamily>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                    <TextDecoration>Underline</TextDecoration>
+                                    <Color>#4d4d4d</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox19</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox20">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Sum(Fields!CashReceiptAmount_ImprestSurrenderDetails.Value)</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Format>#,0.00;(#,0.00)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox20</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>#e5e5e5</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Details" />
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+                <TablixMember>
+                  <KeepWithGroup>Before</KeepWithGroup>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Top>2.94792in</Top>
+            <Left>0.29042in</Left>
+            <Height>0.75in</Height>
+            <Width>7.4375in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Textbox Name="Textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>IMPREST ACCOUNTING FORM</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>Underline</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <Top>1.47223in</Top>
+            <Left>2.875in</Left>
+            <Height>0.25in</Height>
+            <Width>2.35417in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox10">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Name:</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve"> </Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!ReceivedFrom_ImprestSurrenderHeader.Value, "DataSet_Result")</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">  </Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value>PF No.: </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!AccountNo_ImprestSurrenderHeader.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve"> </Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Department : </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!GlobalDimension2Code_ImprestSurrenderHeader.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox8</rd:DefaultName>
+            <Top>1.79167in</Top>
+            <Left>0.37499in</Left>
+            <Height>0.33333in</Height>
+            <Width>5.38542in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox6">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Label>name</Label>
+                    <Value>=First(Fields!CompanyName.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>P.O. Box </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Label>Address</Label>
+                    <Value>=First(Fields!CompanyAddr1.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>, </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Email:</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>website: </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox6</rd:DefaultName>
+            <Top>0.25917in</Top>
+            <Left>1.56125in</Left>
+            <Height>0.88541in</Height>
+            <Width>4.20833in</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox12">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>IMPREST NO: </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!ImprestIssueDocNo_ImprestSurrenderHeader.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox12</rd:DefaultName>
+            <Top>1.50348in</Top>
+            <Left>6.11457in</Left>
+            <Height>0.21875in</Height>
+            <Width>1.71875in</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox13">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Amount: </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!Amount_ImprestSurrenderHeader.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                      <Format>#,0.00;(#,0.00)</Format>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>2.19445in</Top>
+            <Left>0.37499in</Left>
+            <Height>0.29388in</Height>
+            <Width>5.67014in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox27">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Surrender No</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>.</Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!No_ImprestSurrenderHeader.Value, "DataSet_Result")</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox27</rd:DefaultName>
+            <Top>2.13416in</Top>
+            <Left>6.11457in</Left>
+            <Height>0.25in</Height>
+            <Width>1.71875in</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox28">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>DATE: </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!SurrenderDate_ImprestSurrenderHeader.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <Format>MM/dd/yy</Format>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox12</rd:DefaultName>
+            <Top>1.79167in</Top>
+            <Left>6.11457in</Left>
+            <Height>0.21875in</Height>
+            <Width>1.71875in</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox30">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Imprest Amount:             </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum(Fields!Amount_ImprestSurrenderDetails.Value)</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <Format>#,0.00;(#,0.00)</Format>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox30</rd:DefaultName>
+            <Top>3.76958in</Top>
+            <Left>2.155in</Left>
+            <Height>0.25in</Height>
+            <Width>3.07417in</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox31">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Minus Total Expenses:    </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum(Fields!ActualSpent_ImprestSurrenderDetails.Value)</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <Format>#,0.00;(#,0.00)</Format>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox30</rd:DefaultName>
+            <Top>4.08903in</Top>
+            <Left>2.155in</Left>
+            <Height>0.25in</Height>
+            <Width>3.07417in</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox32">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Imprest UnderSpent Amount:  </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum(Fields!CashReceiptAmount_ImprestSurrenderDetails.Value)</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <Format>#,0.00;(#,0.00)</Format>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">                      </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox30</rd:DefaultName>
+            <Top>4.46292in</Top>
+            <Left>2.155in</Left>
+            <Height>0.25in</Height>
+            <Width>5.095in</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox14">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Signed by:      ________________________________________   Date: ___________________________</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>                                           Claimant</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Authorised by: _________________________________________  Date: ___________________________</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>                                      Head of Department    </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value xml:space="preserve">       </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Examined by:__________________________________________ Date___________________________</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>                                     Examiner</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Approved by: __________________________________________ Date___________________________</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>                                     Finance Officer</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Audited by:   ___________________________________________ Date___________________________</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>                                     Internal Auditor</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>4.81188in</Top>
+            <Left>0.29042in</Left>
+            <Height>3.22854in</Height>
+            <Width>7.67832in</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox16">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Words: </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!NumberText.Value, "DataSet_Result")</Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve"> </Value>
+                    <Style>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>2.54388in</Top>
+            <Left>0.37499in</Left>
+            <Height>0.29388in</Height>
+            <Width>6.53125in</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Image Name="Image1">
+            <Source>Database</Source>
+            <Value>=First(Fields!CompanyPicture.Value, "DataSet_Result")</Value>
+            <MIMEType>image/png</MIMEType>
+            <Sizing>FitProportional</Sizing>
+            <Top>0.25917in</Top>
+            <Left>0.60292in</Left>
+            <Height>0.88541in</Height>
+            <Width>0.91667in</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
+        </ReportItems>
+        <Height>8.25917in</Height>
+        <Style />
+      </Body>
+      <Width>8.09943in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <EmbeddedImages>
+    <EmbeddedImage Name="BUCLogo">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>/9j/4AAQSkZJRgABAQAAAQABAAD/4gKgSUNDX1BST0ZJTEUAAQEAAAKQbGNtcwQwAABtbnRyUkdCIFhZWiAH4gAJAA4AEAAgACZhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtkZXNjAAABCAAAADhjcHJ0AAABQAAAAE53dHB0AAABkAAAABRjaGFkAAABpAAAACxyWFlaAAAB0AAAABRiWFlaAAAB5AAAABRnWFlaAAAB+AAAABRyVFJDAAACDAAAACBnVFJDAAACLAAAACBiVFJDAAACTAAAACBjaHJtAAACbAAAACRtbHVjAAAAAAAAAAEAAAAMZW5VUwAAABwAAAAcAHMAUgBHAEIAIABiAHUAaQBsAHQALQBpAG4AAG1sdWMAAAAAAAAAAQAAAAxlblVTAAAAMgAAABwATgBvACAAYwBvAHAAeQByAGkAZwBoAHQALAAgAHUAcwBlACAAZgByAGUAZQBsAHkAAAAAWFlaIAAAAAAAAPbWAAEAAAAA0y1zZjMyAAAAAAABDEoAAAXj///zKgAAB5sAAP2H///7ov///aMAAAPYAADAlFhZWiAAAAAAAABvlAAAOO4AAAOQWFlaIAAAAAAAACSdAAAPgwAAtr5YWVogAAAAAAAAYqUAALeQAAAY3nBhcmEAAAAAAAMAAAACZmYAAPKnAAANWQAAE9AAAApbcGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltwYXJhAAAAAAADAAAAAmZmAADypwAADVkAABPQAAAKW2Nocm0AAAAAAAMAAAAAo9cAAFR7AABMzQAAmZoAACZmAAAPXP/bAEMABQMEBAQDBQQEBAUFBQYHDAgHBwcHDwsLCQwRDxISEQ8RERMWHBcTFBoVEREYIRgaHR0f
+Hx8TFyIkIh4kHB4fHv/bAEMBBQUFBwYHDggIDh4UERQeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHv/CABEIAMgAyAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAwQFBgcCAf/EABoBAAIDAQEAAAAAAAAAAAAAAAMEAAIFAQb/2gAMAwEAAhADEAAAAdlAkAJAIClJ/wAzWGVS0+Ip0sMbxr275yN6kVJGL6Fb1pdZnKU7k2AyeznYuIguy2Ad6ASAEhBzmRrKdObHAJI2CtQ6oY4TkX6j9fUsD+rNYQt3V7Udtd0aBrk42jDKzrKvzLKLaz+029tn6i5TV2QC1gCQyHXsgRzomSUumPaDXcWOm9HslXzFXHPbFsTWSa9gJIwUouanFcezwrU6FsyyHM5TulLP5bZJSKlfQ7YBcgBIZBr+QI53VvqF1xtKWh+HbbThv35fnHRxXq3qjO9e+FOqWcRT723H8alIErRqraqrlYuxysVK+neALkAJDINfyBHO7tVVteHqOVOh1jnpFaRQ4Svxfli/p33rrgtQbLV7wmsgO1aqtqqqeDscrFSvp3gC5ACQyDX8gRzu5SLtKt4jp/z6zGadOSd77GvlPTPUO+RFVQUS38RTpE0El/W61bw1VtVV8I9scrFSvp3gC5ACQyDX8iRzvdIzS+Z7qc7RpJkNkaV+Zb7FQ96zVUEnxDqqBtFkG2u7Iq1Z0O/cznGjLzO6raKvkpbHKxkn6d8AuQAkKVdeBiw+61rzzyMnFrVg7Mvbs2Ci2Sp0eTLPLFXulc/UnOH+vauptaIkorpbmgSwno1WK1omVOehubYBIFfWTLNEWqWqeRbRGBz8+Sj5HE5WfLZU2CdycRIkz7RA8N7WjvUe+FVlnEmqypWi62QcXlNruar4jUKnmSBB2rzG4UzCcYR8q0tafvuXJuA0LMphESUbLKtVTVxtb1D1
+gWttRi9MtjoE7HRdiOJy9yzFR5m1ZtL9BbaSUTIAvLEuXHZYidQ3kqCweTuWnTvbcn0lYcSrWvWXbx729eXtXnb1BCRl6Cry9qaEJE+LJUG0JN12tZcWTq3K9Ymr0kmx6abEPQdWBKZ2tfivKD5fzsz5DSDnMxZ61zSmZyC9CVTnXlSAL3iCeaO49nSulB2M8Uv521BL8dmfxOrFa08uAdkAIQAkAJACQAkGAcrEuwGOaAKYAkAJACQAkAJP/8QALBAAAgICAAUCBgIDAQAAAAAAAwQBAgAFERITFDUVIAYQISIjNCQwJTEzQP/aAAgBAQABBQL3zMRBtikLCb5SuX+Icn4gNnr7ORv2Mr8QXwfxACcFt0SYMoif2t7ZRfGd40TGavWGDXze3pNOl2S1zVGKyxRhlMi4rl5l41zoUxqjRp0JRaEIWz2Ctld8G+BKM1ffsdmBPDuO7Eq2qvMVVEGjhuZRPYSAcOtzaKO2mqh89NPySmXLKsRQ/XnK7C3RC+ldno2m9NaPtJC8jmu3kWytotX27nh6snVSa22AQLlYYPYSRLYNQNcrXLUtXAp3KIJS3xlOQjCAhoKOw7EXFfCozn5gWX2d4OtZSV3ijKbU+N9u78pFrcoE7WwYqDjF06ECtaV2tpTmBqbcQKR/P29vxo1gSlYs224JagRDuWSUw6UZMXHbNT4327vymsrWbT0iCHwGYwRNBVLZU2yDFqqW66eqnlMvH+Uf/K7sycolR1WXnqOsfiTCct2S9tcU7noEFmo8b7d35TV4kzAMtVdunKdIl6idEkWaWHHaO8OltBR/lV/udWr3DJ73cNa4khUEdsghBVow/j362ajxvt3flNXiqwzguqwCQvZZfLcrdY4nEW3OH/T/AN3bk42yxKgqJWK4V3IVYPMLrgo9+tmo8b7d35TV4FcxBwVwOdyubKg4Te8Wy8TOWjni08tZ5upSPxjtFMsDjndLhyTOGzsj2x79bNR4327vymrx
+dogaxsL5LYL5/BtkX+lfphizFmLcwhTUlLRlr5xRjIbDTJeNOWZbtj362ajxvt3flNXl+PH7s4kznLnULi5L4vHNlbUqKLWCUpicO7Pnes537Wd+1nqDWPfrZqPG+3d+U1eUWtcPStnTzp5085eAImYykc4GP+o44h6edPOnnTyq5LQ9+tmo8b7d35TV5q/1Y2Fqu8gSV6IcleYx9sKt+/TymyVpPqCea9sLJKKxnbiyoh1h90Qsp9VXv1s1HjfbvImNprJjm15JgezrNW1WyQoozKw9YZhm2wTE4JhNcBuipglViF16QUx7BoypHWuuCG7X1/3HOWYCs/PBfNVExrvb8TqcwxXkZFjcMd3Ab4tsrVydhe10d8tSt97raxs2VNjOasqiNx7vW2wh1HBQkQdnWqzTW9tSzzEkx4vULqlZaciOEe29YvTaJ2TZRPyTs1OpFZms/LhOazjD0xwnaf8AbI453LEjtbjiC/Vs8fp1iJmdKl2a3v2KlHF2AkAVJnH0+OT89d+7b1jm3U37v5pK2NLBqL0tM2n4f1vL7Y2WRsR5D4M7xfBHCWdrr6OiOEgCqN8McSqaLxI7c0Zr7R3tyE59tae45siYxJGZxlmootM2nSarmkl6Cp3i2S8vGTsBZOyjLfWxIZnCBfnLqOTnwzWVS9wDNguo6NtQqxVzkDl6AcG2gQOJzA2jivU+1+rS6pD2VTCtDLVrZFLzOp1gh51wxm+vQ+uqm3gwPxg6uRkceDqwRgbvbhqDSVQbB4ZE/QmTsayOzY4LV4MCsyCuAdHa4XKWGc4BLVuXjDKkx3S0RDa8kKeaOSzUc97S2VdDOTsadKXeBxOFmU2DFNrgjLYw4KO2urhjJjJBUq2jsInlQtg1VOauupMW1VZtTXxW06yvAoQFW7esl7IHSogOxo1v3HQsa99dM0smCufw6liEKj6iXNQ2viEteC4llqA+TF6DDqV3Ir0dhOdq7OSkxlkclMcZHUFgnnYy
+u2pXDI67YVNomq3W0gBROxRXgmxdnJKcudrS01RjKpGztHIzoPxjS+wKD4ctXss2pWxAMLbN4NfecvYbm2ek7Kc9EcydG1k6N6MnXbYWFI2LF7Lnxoq+svO5fmRbKrmOCEtfuOa0Kbg2RpdhbI0TeeiN56O/Gem7eudtva5dTa1PqD7OTf02rW0bXTRME5+f5avWFcsuuFen/kZTWYydIjgNWkGf6//EADQRAAEDAgMGAwcDBQAAAAAAAAEAAgMEEQUSIRMUIjFBURAyMyBCUnGRobEVI/AkYWLB0f/aAAgBAwEBPwHwe9rBdxT69vuC63iof5Qr1B95Wn+NbaYC+ZNrJR5mqOtidodFe/sVczomXajG0ccpugXz8MLVFhcxHG+yGF07RdxJX6dTXsR9ypMIiOjHWT6Gqh1HEs8d7SCyzGn4mOTTdoPjiPphUGHsewSyarM2KwA0Vzms7kVbgLeyOsgKBsM3UoOMYt1U8EUzbSjVVlNu78qi8g8cR9MLD8u6NzIAgcOoWlrdPwuq5rrdD/Hn3XCDrqVjXrD5KLyDxxH0wsOzbo3KrH4fABWsLrmrEoBw5WCxr1h8lF5B44j6YRa52HNy/wA5rLJ3KG0HUrDoy6m4jzUF2zvj93RYgJIpyGONlnn+IpjqgnzFY16w+Si8g8cR9MKkd/RNQeOTlZj+illqKfyHRCuqvi/CDDbNLqUCy/JQnM5Yyf3x8lH5B4zRiVhaVh8+xeYZeRU8RjdZDMFK7aDIVRt479kZT1TpbclTO2UZmk5KMOq5y93jsX9ls3dlWUu01HNUdcCNjP8AVVMT4/ksuqp5Lk80dUynZG3az6BTTSV0lhyUEGzblatm/sti/smSBwus6exrje6qMNim1vYqnpnQjI592p1Cwm7So8KDCeJRUrI9eqmw107s0kn2UVHHELNKjysFkHgp0wabISFg0TK2pcL/AOlvdR2H0W/SDmwff/iGIt6tW+gj9sJtbM422f3R
+r2DojiJPJq32fo0fdb1U/wACjq5jJld+LIknmpqbanVy3Nvc/VbnEtxiRoR7rlK58GhGvdCpk6m6jhfNr5QtxZ1JW5RLc4/7p1E0+8VGzILXv7RaHaFCCMcm+3//xAAyEQABAwIDBgQFBAMAAAAAAAABAAIDBBESITETFCIyQVEFEEKRICOBofAVUmHRNLHB/9oACAECAQE/AfJz2t1Tq1vpF1t53aBXnPqXzv3LayjPEm1Uo1amVcbtclr8FTKY23CLGjikN1LUt0CNW7QJpmkdZqIe5uOPQarHIG4iMkysKbJG7VXMGbSmm4v51/IFcuuAVFTGYGxz7IMaYxJGLObqsQ3hko0cm8NM9o6myewSPbD6W6oxNqnl+jAgw4js9FdR8g867kCiEm2+XqnPa93zRgf3RxY8Xq+zlkG8OgNx/wBC5foSf6VuHCTl1/k9gngEDbcLejVeZ7bRjA1Q6KPkHnXcgTdntfmaISMtZsmX8hCwyFve49k5wAuUH43YVy/n95D7raNbo4D7lOdC7nc5yh0UfIPOu5AvCcO98XZYY+wRbGei8UlEVWLDRVNnUsc1+LNeGubNThz2i6wR9k8RgaKHRR8g867kCoP8qyp6uSOV8cnS6g8RxkN6lVsbnPxOzWC+VgmSmmh41+oNJI+qpKp82NzuUKHRR8o85Y9o3CpGujdiGoRm252nqULtkbtT5zJwlQ5HEt6uLPF0/ZAYYxYFS1I2ewjbZUkGN1ug8xX059SFTEdHBVEAlGJuqc0sN2qN4fogM0DiurKSX0sUEBcbBMEcDbXRq4R6l+oU/wC5S074pMJQDwSOyiq54xhwqWd0ueDNEOPEAmzyNNiEJyL2apJJX9Mk24GQTKx8Ys1immmlNy1PY8a2UNBJMzGFLTxSZvCFGHC4Fvdbk7uVur+/57Ld+hcUaMv5X5ptJPey3YDWRbr2J/Pdbm49T+fRbket1FSsx4XD/aYxrBhapYNocyt1b3K3SNbn
+GjRj0lSF0WRGaE7+pTInS56BbmzqVuka3ViNID1KjZgFr3+IgHVCGMdPj//EAD4QAAEDAgIHBAcHBAEFAAAAAAEAAgMREgQhEyIxQVFhcRAgMoEjM0JScpGhBTA0gpKxwRRiY6JAQ3Oj4fD/2gAIAQEABj8C79SaLWxDPJarZH+S1MP8ysoGfNeqjWcMa1sOPIrXheF6234gvRyNd0P3tLtI7g1UhaIx8ytPiNLbxcogZANKwuZTiNyc9ri/0Vw5FaGJlDqyMz2t3hSuhw7PWublEDkrBHGX6FpttA37arD+hY0aTwlvL6hSSuwkTiJLGpk4aQ+VgtZXZxKY+bECJ0gqxtFptlBUgOzAVrnk/wBr1SdhjPEZhXRPDhy+4tOvJ7oWjbXPYxqumyo7NnEdVJHC3fkRS48qlSYfEy3SxurGa1qOCax0LZLDdGT7JTSw5ioyHFNdc4FooDXYvXU6FX6R1NmxZTbFbW5vCqaJbtUUCZG6GJxYLQ4jOic4h7DN6wu2DkFicabMS6lIw3NB87ntkd7orb1C0wujFdoP7oMxYoffCDmmoPeluzF2aZNA0BnvcBvDlosMZJM/+puHBaz3EngtbVWy7qqNb8lrNI6rSBzaIYYHI5K8yA+SNg2K2RtFm35L0bq8ivaYVG/END7faA1lpY75LfEN/wARCrGxrebfa5rD/AO9N1VoJodyrJqharadl99SVrdCr/dTm8CgOZTG8TVXO6lcv4VXMz3UVGNqrJG+RVYvkiDVp7MP8A703VOcRUhCOKOsi9KytNoQdHSu5Wv2bwtOzzRYdoFE9hR6lMiQhbvV78jtKy2fsv8A7NeHoEHTMqzfyRfGynZB8Hem6p6oWVrv3rI58d6uGbVc3KQI4abZzVvsOXJ6f0Usx2NTsQ/wt2LRx+AKxuble7ZxVchzKtiHmU/sg+DvTdU9eKj6q5ufNqsxDa81psG/yVrho5wjBJlMzYopvaY6jlI//HVNhb45jU9E
+MJh9g8RWgwwuk3laXFOzVmHZVXTOp1RJpXi5P7IPg703VPWkj/dazXEcwqTxWniFfhJweStxUZifueE24i4eCUbCn5ULsnjg5XvB1ow1G3xkU+BqshNkftSnercJEXne8q7Fz+SpDHVajC0cldI4fNP7IPg703VPVrQCFnEvSQLIvjKo3FMeODwtUW/CbgtHH49leCbaa2GhVw/MOaq5t3xmgVHYpjBwYqkvkK9Hh1qwrwn9Kf2QfB3puqf2bSvE75rxu+a8Sc51KNHBSZ01dq8Oq51qyOYWkZbaf7di9n9K2t+S2j5La35La35J/ZB8Hem6p60rc+S8J7j+oWSLd4NV5J/l3ahhondkHwd6bqnrzUkMrQW3UCuAFCi0bVsWikikIcNoXqp/mFVrJx5hern+YQw8UMnEkrWXhWTQrWRte76IGlKtT+yD4O9NXinNVo3Iv97NPtzP8p7nCr3HenSSHUGQCskyI2O4J0UmMo5v+Mr8b/4imxtxlS409UVbGMztcd6abWujcmujqx7SrnZHY5Ab3FGu5tEefZAD7g7zcUwZtyd0QeNyEjcwUY/6Z9RxKIY2hKq6MHzQjfE6ML1xd0ajJhw4SsFTUeIdjcRi7rnDUAFfNevt6hWB7ZByKqx4t5rQmWMayvbPG9/VaOuQVBsams9kZu6Kg7xY4VByKLPZObSrHeErTRjW381UdyPnl2Rj/E3syWjMzy3hVDkKK93gH1Wjb4iqDatb1j83fcGN2R9k8EYpBRwWjkPQrSxDqO5DT3kaMl2+6ENL49G2vcudkz91a3buCqdqGLnGfsD+e7nF9Vmxy2keS9aB1REcjX04Fe7KPC5GOVtrgrJNm4rSRUDv3VrwWlbVFn7Sd6R+33kzf6JvbfNkPdVke39lUmpQxGJbq+y071c9wa3iVlM09F4ifJZNcVlF9USBRaj4x5L1zfIrPW/MpjPqVAovWs+ao57A7c6qscK8CNhWwlvBZjP6hVGuziFG
+91aByLaVqcuap7jA0qjG+avdrO4lWxAgcV4SUJsW5hduZXYvWs+afHE4OedyybT8yylp5rWkjPks6VRe1tCtFHW9+/grZDWSMljkxs11JHmwtNWkJno3azXO+SY6Jhdc8NojFneGkqN0js3Mv1WnYo6uyk8JoiySjHaSwc050tGUeW06L+oyc00tpvqm3w2jjd4VUPYUPStodiEekFxdb5qHD2ikgJr0T9LlR9gpvURYcnSWGo3o+LVrdlsojLopLcs6baoQvicwnKp4rCawDX3tdfxCdHIywx+P+E68VorHbFlIU5mnqRl4FcygPGxVDGjaMhxW6t11a51VzDma+1x2ptoebY9GKHcmkibVtp5KtJCL9JQ+8h6yrXF9SOK0DiLeSZI+e4sGX/tRs0vq3VaVpY88gCAMldSX1ul80x9srXs8Lmqj2yeK+p4rWNPSaTx+0nyXR3vFHc1o8rOCuJFeNqpfTpGtLHO54fnVEtJNexz3uoAE+aLDRSMkOWkX4XAj8qzwv2f+hZ4HAeQotb7Mw5+Gai/CYhn/AG5arUxuMi5PZULKbDYn/UqmKgkh57Qr4i0O95ipG5r28divxct3LYFosMy8+7G1ZRw4ccZHZrW+0pDygjVXRY2X4n0Wr9mR/mnWrgMEOuaywn2ePyL8NgP0p0f9HhRXe3ajCT6Rjjc3sBwkV7ic+S9KyZ3XIINDixo2awWtiv8Ada2MH6is8Z9SvxQ+qymYfzFapcekipi8M14/vZ/KthnfhX+483MKa6OJv9WW6wB1QvWtH5U3D/aLKsr425I6XEaKL2IodpVMJhG14nXcvbaObrVrStHV5X4lv1X4z91q4z6lauL/ANyspi786M2jk0h9pqEeJicY/ecKU+6o4AjmjLhBR29i9JW7n26We5sXE7SrYow0f8X0sTXHitj/ANSq2EE/3Z/ef//EACkQAQACAQMCBQUBAQEAAAAAAAEAESExQVFhcRCBkaHBIDCx0fDh
+8UD/2gAIAQEAAT8h+utIcrMDc4Vs+KhA3Zt0Pmn8jBaj18E3BdTEZjs/Yht+Zn3FAtaJfGr1/eKrtpRDJzerWvSB0ng1/ImM417pHZl+V85NkEwENc007RKR5MDg+hLAGoluhuE4IXbxaRTOYpqQFThd+d1xDl2uLQHrpSoQNhdN4/MqJwA3m9fYKeg/M7S2VODPOX6uXPyGiPZETgDdaFfiYBlJnNUnEsYegikfmGHErSOyyNRHEIVYraJBl1hb9wKKrotcSqci6YXKQWZs0JRmnDBdJRHC3YHBsw4robO9dCGznqCh03MylAFKeOglI+kDjzIWAVib/UyoaVB1JWT6IKxZFwxnFwwmzmaPUs3YqZNh66zOqUGeyEq83pSoQGV4lAJ/RiPMKqHgk1W1M8jjWaOjzhB5CDZvOGpph/gaPecvmwXerzURlDCFHY2+vX9fSBW9QcMr7uDeVYurfw02jAbMEVqmNaNVflLB/wCs7ElR/wAIgrBZJ0upt6QyIaNJWLFMyzO9yERbU84QWgT7OjIDQq4nyGenWM2GskZMEyPwxaSNri6wnmxp3OYbO7n4jamr8SseIBC4CDrTXXEZ5U/xjxFHTgQxdD3UIp0EQ6DKYYFQXbqPh7N9Z/BEEQ1CL0DsGiOuDrw95ckJ/EFGlg+EazxjGu6ZPWV90yu98GbgbVAOva/MOgLtuvLLEJzaHaZI5NZh0hdqPjxXs31fx9J8Etmvb/EyVpuTFiNGn5IV1LM1Z0TO95RnXt3jt4mxNrlQ9tt4DryI2hzMdXVS484Jrug1j0mPn6vSW5Cak9l4ezfWfwTGPWsUZp8up7xyjAawnNpi4CaKWY3xAZkFb7EfOHQmE5b0mNqVjtyRbdgXyQ7yjEuV+1ola8+QqY5xw+WI0Ki82Z7Lw9m+s/gmS4Xkm13sz9cxUvpQhEJ6qaLahr5QFW6g9kpaBk5eZQUb1Py3ZYiWaUH5S8j7Z7tTCN3qbYeSwJKDpHsv
+D2b6z+CbFZ/BgWhQQxz3vmZqdgx12mWbsn8piBLDdqv+RtiSnhhxlFIjKB6PpQLT0v0HqH2Xh7N9Z/BB460d0S19CW4luJbiCmLC1WUyssjp3xNY3APePx7p3luJbiW4luJac5T2fh7N9Z/BNDvhoG0NT9wKS0Eg9ASc5JzjtEF8IgXP7L4lltVf0RVt/u6QDXVAa7yxejiOjh5yoeaIf16dEYAMmjtPZeHs31VoqwnaG3yWRQmVpNGRjTmJpw7bcprbOX/WwgpiBVsp5sLVS5MqTwsNqEBDK11pAo5lqMvvcSnXsw27aqcH7xCoF1AmzSp6QzuuB4CrSYPqS9P9VNcRQliLTmFOiVYFMT1ctvEMGNyCdHjJLkdC00XeW/4eDmXmljS05W4ciZ447I9X3HCc3bzqAQg2xrRGgC63qzOe13ZU/NfAAFAUfUcodHJGKL3kTP8Akw8M2ADHhN5mkzKYJBamErzGXBxiB4hRKZQ2qekeo+nEONQPR17iBa4PQhM1TQQBoazx0+xj6c8qXO7mYzpG/EtuVqe/UlBqXCN5lah0otUCmE13mXDwMAjvAEzGg2il1WrG6hPt9L/Lluj7UxuvdQbvokZHai6ptQP+D0jLE5GYK36GNkTnpLU52SHCmP5R1gN3MzHLXezA7kU0aylPdNz3lHhOMaQpcm8erhn3xlM23KJ8pLn4gQf8MTeHnLKCLg4n55M/RhN0QrpJkuuYJpJW+dMWRoY9WESrqQlOxN9ILt3Aad5ieJcSwdWVNDokARtaNyGZZBW6wEt+B2jtLfoKyyhCnpN/0sK7o7I8sUvhQYbU8qaKd1/BMb6uiVmjTMOcacNvM1wTLnGj6TTRgww4rU7zTDUVnGuPhcqyX8zB+Bsw1rNklyDqgirQLFN6Zmf5Nel30mLpPVcGKaOb4qmMFOQGKVW9i7/ctuiqNM6doHLACnRt3hsbKukGVSNJbJZHUF7u8HHeAsDY22dtwJFFzQGjMxCO
+ExY0HSZCGpZWxmA4tADD0PaArUFZj5EXE2Z7ksATalUfWXZRl8pSyjGqNC3AyMGjcuxgH/dAwhMhT2mwd3Y2xWsdFg5Tb4NYzq8pjGQqwUmiS3xYzC7PVHeRmI66jzB1iCyoNMbTlHBj+1G21dAl6wOjimpRozRCmoMcpVLLTeiOS381PSY1F5WUJXd1uzXEM9WIIQpvwN05azIAg6V0nzNDqhDNd3Id94Ic1/T/ACnoTVJWjjUuNZddx7sUPW7+SB0Z3Yd5pndQxsGLTChN9ev0R3W9xXrM0bkizfjq8F7sYIObZpxmXhHaGolkanhjQYqunNR7CcCFP8UKKJxXuv14VKkHl/dj8RxMoZ/WsV/irRKZd07KZiDQ7O/mpfQHAZTAhpVD1OJ0pZ4urNL2w31GE5GbB7CZjuQm8LswFoPX9ps2ewXt+iP4PPmUZUtUt9JT3Gbr9vtM2rUFyruZ2XtMgwsO/wAQ6f4BIANuDL/5c/0wpi26+hBUi0VAAUFH2//aAAwDAQACAAMAAAAQ883lXQlpj4/888pvnS3elvXF288tRqDHoCFLLd88/wD6inpZrP6/fPP1r/6ggqWK/fPP1SQFrcwwq/fPPwsVEsOpiY/fPPHGGTTwH3SPPMtJjMA5ATA0N8p26avMrL6ud5Dyu0PmN4K7ZZPjnbvXKwc3HLrfPvPPPPIX3PPPPPP/xAAnEQEAAgADCAMBAQEAAAAAAAABABEhMUFRYXGBkaGxwRDR8OEg8f/aAAgBAwEBPxD4wQCDu2nIlJRDrv8A2Eut14GzlNjsabWphwuF4mnSBWDrh7zqK2W3wAs/wSzFrhKO2d/CqNfG6I2Uy3Vv0OsOlQ0MXrh7nMyH6lODrlX2RdStmfbBmVIOuG7PLDC4JerftXFdYiME6Z3+/M38Hz3npmEgcjQrb9RBSbmUSTXkS17NSiGhcd+EgHO9NkNA8uTFO1iWbec7E8fPeemIaTHyzFDdQxP6fxMXFmlP
+pnkB7YXgGOhsNrGi59WiVecuzeWdmePnvPTN4MfLG+2jtGIuKPMp6mHWItEcc/bJ+f2sXtElIu7ImRIdm8s7E8fPeemHV7vTjDq9RgyusxmIqbVbrKJqZEdK7zJijVuF6T/tMFgnNnZvLOxPHz33pgCGNLfVjlCyFYwO6JUY8sjzFuAt3wy3ZnAKhEZCEgaDyztTx86oXmZfsLg/36lnl7HdGtmEF6cYKmXo4yvgihJrXQyNr+ymWHdvo/afKMI5qU66PeB8OsBabn76xKnNkmstXDWBReZv1DF4KcjV5eoeOjkaBtd//CAYX7YNqh+xKClaHbL9zRTmleZw0JMuDf7SYYpszjIZ9p/Zn4dpy6Rih6A4Yz/vZMCNzBJfwxZaiAsOO+97IFm3N9w+uEXMt3I/3tLIBdi0+IoRN7g8QPELut75TVPi/Vy7Icl6I6QHP9wYuCYOpsxjtrGYkgbDKFFLRdnbzYro9WEMY44nSYE9jRyMh4VwhXEGo4jMEmx1eV5cqg+c5wPR6soyRzZS6G+PfW8/6Ipsi9hfD/f/xAAnEQEAAgEBBwUBAQEAAAAAAAABABEhMUFRYXGBkaEQscHR8PEg4f/aAAgBAgEBPxD0Jt1CXdTtKNkEzL7CVsbvmV6BxeT/AJBLu5fmKVk4wQWf4L6q1KTOceWn7pClFGnTlKAriPiyZr+zLRDJopgIi23NQyX5mh/ky5d8SGO7Nf37Mp949fK+GKBBNN7wI/hXqZayOHz+4ks01rrX8gdUUvEMLhFcd37jKqG2VV/v2Y+wpdUx1lLQRraaTwT29fO+Ii7Kl5/7DFgaDR5/uspFQ4dDnvnJBvimuhrLHpeG3t0OqxF9VtmvmKjoqNDV51+5RpaG117bP2Zr854J7evnfEyLpTZrcBkdxk7xkrR2ATqROjF+187OCtYvdreoah0B563ngtXs1mKOibcFHB8Czvgm29+e9pM0hyo7TX5zwT29fO+Jl0Etr0hsO0TU
+D2I5mBEKKvfK31Au3VfHzNTYF0Zp1gGz2i1RNfnPBPb1874YSydRrxFKWyN9GeuNINE7rccXlKJA0FrtsmI6Sz7g61BuNO3vC3VAo7H6i78GNxrDnznhHt6gq2wLheMWkFWYlsRbrefOsDw0xabJC8UOv7MKV6jPglCYbU/d+0pOY/cfXSPB+p82if3em19tIPvbo1cbYZAvVuKIq6jvmuNdWAGDm1c18979og/R+oSrVzwqC8L8uXTMI1tfbx5yvxcF58TJsTbAl9uuvtNbV7m/aCVY5GM23L1y5r3mLnvfWUUFfHXjDFGH2nue0CKU7/5Haqm2XYW3H2jbZ5onq/MZYboPzfiVzeM0lMTkquQbft7xJkXgX5gADG00+I/tPpLMpd/uByYm2mTm5hsKCZZQ3bIbRus3l92K7HvCGU55JhxuOzoaD2g3UNzkmOnmf+dKhth6wPY92btTqz76iWlzf6NoWRSw9v8Af//EACkQAQACAQMCBgIDAQEAAAAAAAEAESExQVFhcYGRobHB0SDwEDDh8UD/2gAIAQEAAT8Q/NsH6iA8WOKh595RBKzgF85cbhth9p6t6RusE/XMW9REvl03t+YgclA/cWFa2aT5RLx+z+x2YC1WgjDOJsHroJgj4rPxcekVAsAqzoCfiXCyLgLvemDEmkEgZaBqNIdYkjC0K1lud2LXd7mOtSlVmXi+BEW52YJA2uvqbmFuFHNZi9DgSlKR1MQPRigcItqLoRLHkWhm7sSvdREZoxkGEjQrexjLhjrGmlhb/Qj4NoN/5/QqzVadOuw9YcTddCG61e6w2kKeGvKXSAQW0aMQiWb1sRWSlUh2VdDMSYGGBTpqPEffs66EbJbi9IT0dLHZWaitMFAq6uEzMIAmtZLro9JaJoYXZhtrwlUo+vyneIeFHEegVtBLNTtwNddLqIJytE7CF2Ba6BFUuEa61dU1tcxmhhM8qCtxpDBgNizoBaXhiygrJPtdzygV9L2B
+0R/ICISkaCwdsRLmHOXsrC7ITbKWDVkFReRxGWthJcAUNWgL3hA57ZeUlDy28eUoCC6fRmhl3Zt2uY2qFa4U+Jk4y7aje7Xwg0EFKFXxjr1BBlxK8FLsljwgSruogKc7D56TWaPtB8TDMpkIlDQzpTUuVaJWwNUwA1YW5dMhY69D3m0/Ycfl6d7Ia+ouWmlm8JUvJv8A1CPOqWu7ETaOr0atHEzGJU3YcX8wDthscsMsha2Og/7KaGu8rlYuqjoP9lRl5nY19pccW3i0JRh2RAG3NBsd5TSEx9nDdy7MPZ2lYathFPk/oh6d7EElNouoMcaUOTsenWXr0g6TrW8oASNVdKWz6LdsIIoaegQLxC3fGUtKFmPKqdS/6TOTSK2ttfIjJ0RTYdDxjOlkOpxFbRFB8W9WIqQszX4HcyHXmWpDLZR1reF4JQTQV2m/5v8ATvYmvthZNcJ9nSVOU2PdJmS6kafRszY6M6nVydZc3Cegv2Mv66q0pceI4lR5VOMM+ozQGnmQgdwvDQ29h84h4Lg0Y08DWW8GVter4IWZry7o2Iycmq8HAiFIrP8A07ESPUVePDd4x2nJ8zf83+neya+2LjZBgNm1xiPZDL8TWKqy4GfifEcTszAeh9MTgB0Kx27e0tu5AVhUIROojv8Au8sFRBfAlHG0prZvGWjKHTrb+8QezEFdcnr6EtHdtjnq3ehGhB8G7CEXvmsvAMEuBSgFutjSfodZv+b/AE72Jr7YOKwdMifvMxeyVTySqQdq664z7xCPZyTpX2TicEQ82S2chffDTovWUdbu7RY9OUOmFtLbHyGYgcGS0ELTssppLkHvlt1iVxwKr826wRZ3xzp/wl6d4wD4uWcEqaYJeUQ2l0xPQPeb/m/072Jr7YZorrkt6ytiuW+YHT26tF+5xDBQCdRWrPiwfMNo735QyklooNaLxrnSWetFtSk7VEO0yyUbCYbDgwaR9YE9t73ErUxVdHFkObVSowrRtKD/
+AGYIhsqIXHym/Seie83/ADfz9nsTX2wGq5WzAOQvFPREUE485AeyHulusGVq8ZVeuZoH1ZyC5HWo7CarlzWrvavCNNwBs8JuM1bILeG6ycTSR2+uacJBfWgf0IJhYcOEybo95v8Am/072Jr7YqsKkYVucwZRVy/wADnVana4aUHeCVXoXcgt6h5ytBFV6DMA0tH2Ffb8QAH5gLjjE9G95v8Am/j7PYmvt/g0on7UY0HEC9yx17TVLhrt0xtLZxG6gLtBjsvcf4VWxlWNFhAkrauaBjbS9Q1p5eMQaTi1Y0K1tSuCqE3sYrYLwBR2y+HnCGGGUC2x5z0D3m/5vurylujDHI0fqU5lf9KrJTvFEWTzB6xFdUAK4xB1Ee4xxQylRW1a2OmhuzTus98lS9y0l/2HSatiFalmRzhJ1f6dYWU5ZFe8TM0gzfB0hVEq7AtSyYfPV4UyBucIMFwcFKItcNh4swEGfQFwHQIxrzw4BHryhdf4brelqY/KpAagypx4HHjE5uwnJuRc2wRqOO8dssKS6awpgNSMVKgbI6oK4OIJD6KhdcZhl0l3qdMhMRXRVcKZ19n8OUIc4nBeQ8ZSjY0+FVMl6SwuyZsYjFaNL6uvWIKpZJAAONbb8pUBdA9etDm+sSgtJ+mIWaXBNNxl2qLYAdPHSF8GA2DQ/JMDUmEKSJ4NT5Pc0hYblW98MuLGM7G/clKCo5HJTEfQ/i0QWX2d6AVRKPU+RlAaeOlL/ERoLIqki1O1WHprp0gqikE3yvzAqU/4dooEVFP2uGpUAtV0IJMq9APY9b/orR0XztvZ3IrumGybI7jA1cdi5Qwi/wCgPKJSuxpIWdI40rOkc5qdNCNC2toFm1yCUbsJZ3igxWyZ0PQfcrP+xjyxr62m8wEso8jkc8fjseJ/lPVJfIT3Mn2jywe73QS9CSg81E9WDB/0XpKKPNx1HceY1+0dzoeTrAjNo/YesRwNNL+OV8bEK7MMQHvrrLW1GUVe
+pN2ENIqaCssvcwfqAdJW1VDR/fSJ6G1asTIgKyth46bxhREQBxmKF/rvSWFK6vzMN4EHvA6/sHxL5GN902JaVO12erLTIOyfGIus1xfdg1ly0RZ0We+gkpINui8a5Ok1DD7+hNOzCrdcsx2dpm7DFLf74QAQZ1g6Nu8B4PNsGi+FywKasjL5AiRL1MFl6l9LqDHy4/i2UtVaHkpsipv8DggZd0U1VjI8piXZzy9NCDUiNiDPkz7ac5cRG+qgezKen4cezK6uOWvpUIBvBKHrFkuMFWvEKGgA7OSuL4JbymbEtsetG4iyBcgBjLRlcTHaNaMZ0Gq1jmJGZkbtsuwGzHuiFaHSbx/yOAvFCLSMXRjWAVsKn08KF6x3gmohaaKLxdwWsji70UAt0XTES1aILFR7lgXtyxaF5A8MR3jhd5UqAFoBWtKYl4mxujpKYC4FqIFMWp1r1XZcPysVMQpW93LYWV0PEGHNRrHphITHaxvipWpyVuQi7CtOYBt8NTBGiy8m0Zs/JSwBFJjeDYZ2tCCN8PeLulEUXNtRsvhBQDAU1Y1yRV04i7e2rBSgqxJrSawOrAbNeuestWqJexxswEBFkaCktbRjWBtDAeBWAWLYUVnrLtw7Gek5xqVR26rz5ixm2zxuNtiEWwZgtUolKuAK0brmUMCOcRQv2dBLprNutxJ0VvJKAcBFlmjksb0EV8TBDFUOhFO3kjHTCNNQyIj1lJQNo8EdMAFSvTqJoCtLe7jrMWZZGrFJpEzUMz6bATQXsQfFJVoUUZ5rEBJGtAHLv1l0+1I7APFaVtDdis4x/CvulVt7ywbKtgyA5pv0jqCcK/M9Y1/cE739pLzuC/gXLdWb00YmE0cd0U9Ie+FhqaL8IwnYNm8G0yBzRivkvlfWVXrXuPIfiHiDOlu7q+kEYK+pHSMEPbgc1fiVx/kTpQJmi/v1ma9PnHxBqFH6m7z0gH9wBhOBnzELgNZUzq3hsCqKvcNcfxerAF9W
+jdBJf7DA9DSUJrKUNCiHOf7qjrNrTfBNDV7nzFmGfp1l01nVe0DRrreigcR1rHuUvjccwV274ORfWJB6KMM0Ob2OI8YnDIeeZbQppKsTSt+JTCzg+OvpfLAXxtJvq4Dyl524AeRM4d1sPQZRz/V/U0YPQ4PfIvuObTaUPeNHI2G9kBOZEDroY7MLIIMZNz0/qAGVCB8GZ70A/wCN6R7G52rRQN5xVfxp0gp9WRw8mh18oU6KvzB1f/L0Vj3klPG5Ne0ylSUR54hIQFAFB/X/AP/Z</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>233b5c50-9dae-4dbf-9f9c-d15b3dca55f5</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No_ImprestSurrenderHeader">
+          <DataField>No_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="SurrenderDate_ImprestSurrenderHeader">
+          <DataField>SurrenderDate_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Type_ImprestSurrenderHeader">
+          <DataField>Type_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="PayMode_ImprestSurrenderHeader">
+          <DataField>PayMode_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ChequeNo_ImprestSurrenderHeader">
+          <DataField>ChequeNo_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ChequeDate_ImprestSurrenderHeader">
+          <DataField>ChequeDate_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ChequeType_ImprestSurrenderHeader">
+          <DataField>ChequeType_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="BankCode_ImprestSurrenderHeader">
+          <DataField>BankCode_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ReceivedFrom_ImprestSurrenderHeader">
+          <DataField>ReceivedFrom_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="OnBehalfOf_ImprestSurrenderHeader">
+          <DataField>OnBehalfOf_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Cashier_ImprestSurrenderHeader">
+          <DataField>Cashier_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="AccountType_ImprestSurrenderHeader">
+          <DataField>AccountType_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="AccountNo_ImprestSurrenderHeader">
+          <DataField>AccountNo_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="NoSeries_ImprestSurrenderHeader">
+          <DataField>NoSeries_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="AccountName_ImprestSurrenderHeader">
+          <DataField>AccountName_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Posted_ImprestSurrenderHeader">
+          <DataField>Posted_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="DatePosted_ImprestSurrenderHeader">
+          <DataField>DatePosted_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="TimePosted_ImprestSurrenderHeader">
+          <DataField>TimePosted_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="PostedBy_ImprestSurrenderHeader">
+          <DataField>PostedBy_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Amount_ImprestSurrenderHeader">
+          <DataField>Amount_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Amount_ImprestSurrenderHeaderFormat">
+          <DataField>Amount_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="Remarks_ImprestSurrenderHeader">
+          <DataField>Remarks_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="TransactionName_ImprestSurrenderHeader">
+          <DataField>TransactionName_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="NetAmount_ImprestSurrenderHeader">
+          <DataField>NetAmount_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="NetAmount_ImprestSurrenderHeaderFormat">
+          <DataField>NetAmount_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="PayingBankAccount_ImprestSurrenderHeader">
+          <DataField>PayingBankAccount_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Payee_ImprestSurrenderHeader">
+          <DataField>Payee_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="GlobalDimension1Code_ImprestSurrenderHeader">
+          <DataField>GlobalDimension1Code_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="GlobalDimension2Code_ImprestSurrenderHeader">
+          <DataField>GlobalDimension2Code_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="BankAccountNo_ImprestSurrenderHeader">
+          <DataField>BankAccountNo_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="CashierBankAccount_ImprestSurrenderHeader">
+          <DataField>CashierBankAccount_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Status_ImprestSurrenderHeader">
+          <DataField>Status_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Grouping_ImprestSurrenderHeader">
+          <DataField>Grouping_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="PaymentType_ImprestSurrenderHeader">
+          <DataField>PaymentType_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="BankType_ImprestSurrenderHeader">
+          <DataField>BankType_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="PVType_ImprestSurrenderHeader">
+          <DataField>PVType_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ApplytoID_ImprestSurrenderHeader">
+          <DataField>ApplytoID_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="NoPrinted_ImprestSurrenderHeader">
+          <DataField>NoPrinted_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ImprestIssueDate_ImprestSurrenderHeader">
+          <DataField>ImprestIssueDate_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Surrendered_ImprestSurrenderHeader">
+          <DataField>Surrendered_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ImprestIssueDocNo_ImprestSurrenderHeader">
+          <DataField>ImprestIssueDocNo_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="VoteBook_ImprestSurrenderHeader">
+          <DataField>VoteBook_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="TotalAllocation_ImprestSurrenderHeader">
+          <DataField>TotalAllocation_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="TotalAllocation_ImprestSurrenderHeaderFormat">
+          <DataField>TotalAllocation_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="TotalExpenditure_ImprestSurrenderHeader">
+          <DataField>TotalExpenditure_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="TotalExpenditure_ImprestSurrenderHeaderFormat">
+          <DataField>TotalExpenditure_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="TotalCommitments_ImprestSurrenderHeader">
+          <DataField>TotalCommitments_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="TotalCommitments_ImprestSurrenderHeaderFormat">
+          <DataField>TotalCommitments_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="Balance_ImprestSurrenderHeader">
+          <DataField>Balance_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Balance_ImprestSurrenderHeaderFormat">
+          <DataField>Balance_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="BalanceLessthisEntry_ImprestSurrenderHeader">
+          <DataField>BalanceLessthisEntry_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="BalanceLessthisEntry_ImprestSurrenderHeaderFormat">
+          <DataField>BalanceLessthisEntry_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="PettyCash_ImprestSurrenderHeader">
+          <DataField>PettyCash_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ShortcutDimension2Code_ImprestSurrenderHeader">
+          <DataField>ShortcutDimension2Code_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="FunctionName_ImprestSurrenderHeader">
+          <DataField>FunctionName_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="BudgetCenterName_ImprestSurrenderHeader">
+          <DataField>BudgetCenterName_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="UserID_ImprestSurrenderHeader">
+          <DataField>UserID_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="IssueVoucherType_ImprestSurrenderHeader">
+          <DataField>IssueVoucherType_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ShortcutDimension3Code_ImprestSurrenderHeader">
+          <DataField>ShortcutDimension3Code_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ShortcutDimension4Code_ImprestSurrenderHeader">
+          <DataField>ShortcutDimension4Code_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Dim3_ImprestSurrenderHeader">
+          <DataField>Dim3_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="Dim4_ImprestSurrenderHeader">
+          <DataField>Dim4_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="CurrencyFactor_ImprestSurrenderHeader">
+          <DataField>CurrencyFactor_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="CurrencyFactor_ImprestSurrenderHeaderFormat">
+          <DataField>CurrencyFactor_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="CurrencyCode_ImprestSurrenderHeader">
+          <DataField>CurrencyCode_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="ResponsibilityCenter_ImprestSurrenderHeader">
+          <DataField>ResponsibilityCenter_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="AmountSurrenderedLCY_ImprestSurrenderHeader">
+          <DataField>AmountSurrenderedLCY_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="AmountSurrenderedLCY_ImprestSurrenderHeaderFormat">
+          <DataField>AmountSurrenderedLCY_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="PVNo_ImprestSurrenderHeader">
+          <DataField>PVNo_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="PrintNo_ImprestSurrenderHeader">
+          <DataField>PrintNo_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="CashSurrenderAmt_ImprestSurrenderHeader">
+          <DataField>CashSurrenderAmt_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="CashSurrenderAmt_ImprestSurrenderHeaderFormat">
+          <DataField>CashSurrenderAmt_ImprestSurrenderHeaderFormat</DataField>
+        </Field>
+        <Field Name="FinancialPeriod_ImprestSurrenderHeader">
+          <DataField>FinancialPeriod_ImprestSurrenderHeader</DataField>
+        </Field>
+        <Field Name="CompanyName">
+          <DataField>CompanyName</DataField>
+        </Field>
+        <Field Name="CompanyPicture">
+          <DataField>CompanyPicture</DataField>
+        </Field>
+        <Field Name="CompanyAddr1">
+          <DataField>CompanyAddr1</DataField>
+        </Field>
+        <Field Name="CompanyAddr2">
+          <DataField>CompanyAddr2</DataField>
+        </Field>
+        <Field Name="CompanyPhone">
+          <DataField>CompanyPhone</DataField>
+        </Field>
+        <Field Name="CompanyName2">
+          <DataField>CompanyName2</DataField>
+        </Field>
+        <Field Name="SurrenderDocNo_ImprestSurrenderDetails">
+          <DataField>SurrenderDocNo_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="AccountNo_ImprestSurrenderDetails">
+          <DataField>AccountNo_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="AccountName_ImprestSurrenderDetails">
+          <DataField>AccountName_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="Amount_ImprestSurrenderDetails">
+          <DataField>Amount_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="Amount_ImprestSurrenderDetailsFormat">
+          <DataField>Amount_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+        <Field Name="DueDate_ImprestSurrenderDetails">
+          <DataField>DueDate_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ImprestHolder_ImprestSurrenderDetails">
+          <DataField>ImprestHolder_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ActualSpent_ImprestSurrenderDetails">
+          <DataField>ActualSpent_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ActualSpent_ImprestSurrenderDetailsFormat">
+          <DataField>ActualSpent_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+        <Field Name="Applyto_ImprestSurrenderDetails">
+          <DataField>Applyto_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ApplytoID_ImprestSurrenderDetails">
+          <DataField>ApplytoID_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="SurrenderDate_ImprestSurrenderDetails">
+          <DataField>SurrenderDate_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="Surrendered_ImprestSurrenderDetails">
+          <DataField>Surrendered_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="CashReceiptNo_ImprestSurrenderDetails">
+          <DataField>CashReceiptNo_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="DateIssued_ImprestSurrenderDetails">
+          <DataField>DateIssued_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="TypeofSurrender_ImprestSurrenderDetails">
+          <DataField>TypeofSurrender_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="DeptVchNo_ImprestSurrenderDetails">
+          <DataField>DeptVchNo_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="CashSurrenderAmt_ImprestSurrenderDetails">
+          <DataField>CashSurrenderAmt_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="CashSurrenderAmt_ImprestSurrenderDetailsFormat">
+          <DataField>CashSurrenderAmt_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+        <Field Name="BankPettyCash_ImprestSurrenderDetails">
+          <DataField>BankPettyCash_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="DocNo_ImprestSurrenderDetails">
+          <DataField>DocNo_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ShortcutDimension1Code_ImprestSurrenderDetails">
+          <DataField>ShortcutDimension1Code_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ShortcutDimension2Code_ImprestSurrenderDetails">
+          <DataField>ShortcutDimension2Code_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ShortcutDimension3Code_ImprestSurrenderDetails">
+          <DataField>ShortcutDimension3Code_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ShortcutDimension4Code_ImprestSurrenderDetails">
+          <DataField>ShortcutDimension4Code_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ShortcutDimension5Code_ImprestSurrenderDetails">
+          <DataField>ShortcutDimension5Code_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ShortcutDimension6Code_ImprestSurrenderDetails">
+          <DataField>ShortcutDimension6Code_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ShortcutDimension7Code_ImprestSurrenderDetails">
+          <DataField>ShortcutDimension7Code_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ShortcutDimension8Code_ImprestSurrenderDetails">
+          <DataField>ShortcutDimension8Code_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="VATProdPostingGroup_ImprestSurrenderDetails">
+          <DataField>VATProdPostingGroup_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ImprestType_ImprestSurrenderDetails">
+          <DataField>ImprestType_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="CurrencyFactor_ImprestSurrenderDetails">
+          <DataField>CurrencyFactor_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="CurrencyFactor_ImprestSurrenderDetailsFormat">
+          <DataField>CurrencyFactor_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+        <Field Name="CurrencyCode_ImprestSurrenderDetails">
+          <DataField>CurrencyCode_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="AmountLCY_ImprestSurrenderDetails">
+          <DataField>AmountLCY_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="AmountLCY_ImprestSurrenderDetailsFormat">
+          <DataField>AmountLCY_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+        <Field Name="CashSurrenderAmtLCY_ImprestSurrenderDetails">
+          <DataField>CashSurrenderAmtLCY_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="CashSurrenderAmtLCY_ImprestSurrenderDetailsFormat">
+          <DataField>CashSurrenderAmtLCY_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+        <Field Name="ImprestReqAmtLCY_ImprestSurrenderDetails">
+          <DataField>ImprestReqAmtLCY_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ImprestReqAmtLCY_ImprestSurrenderDetailsFormat">
+          <DataField>ImprestReqAmtLCY_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+        <Field Name="CashReceiptAmount_ImprestSurrenderDetails">
+          <DataField>CashReceiptAmount_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="CashReceiptAmount_ImprestSurrenderDetailsFormat">
+          <DataField>CashReceiptAmount_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+        <Field Name="ChequeDepositSlipNo_ImprestSurrenderDetails">
+          <DataField>ChequeDepositSlipNo_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ChequeDepositSlipDate_ImprestSurrenderDetails">
+          <DataField>ChequeDepositSlipDate_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ChequeDepositSlipType_ImprestSurrenderDetails">
+          <DataField>ChequeDepositSlipType_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="ChequeDepositSlipBank_ImprestSurrenderDetails">
+          <DataField>ChequeDepositSlipBank_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="CashPayMode_ImprestSurrenderDetails">
+          <DataField>CashPayMode_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="OverExpenditure_ImprestSurrenderDetails">
+          <DataField>OverExpenditure_ImprestSurrenderDetails</DataField>
+        </Field>
+        <Field Name="OverExpenditure_ImprestSurrenderDetailsFormat">
+          <DataField>OverExpenditure_ImprestSurrenderDetailsFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
