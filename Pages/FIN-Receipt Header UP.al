@@ -1,7 +1,7 @@
 page 52178745 "FIN-Receipt Header UP"
 {
     Caption = 'Receipt';
-    DeleteAllowed = false;
+    //DeleteAllowed = false;
     PromotedActionCategories = 'New,Action,Navigation,Process,Request Approval,Approval,Post,Report,Print/Preview';
     PageType = Card;
     SourceTable = "FIN-Receipts Header";
@@ -15,7 +15,7 @@ page 52178745 "FIN-Receipt Header UP"
                 field("No."; Rec."No.")
                 {
                     Caption = 'No.';
-                    Editable = false;
+                    Editable = true;
                     ApplicationArea = All;
 
                     trigger OnAssistEdit()

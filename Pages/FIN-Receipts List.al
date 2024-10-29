@@ -1,10 +1,10 @@
 page 52178743 "FIN-Receipts List"
 {
     CardPageID = "FIN-Receipt Header UP";
-    DeleteAllowed = false;
-    Editable = false;
-    InsertAllowed = false;
-    ModifyAllowed = false;
+    DeleteAllowed = true;
+    // Editable = false;
+    // InsertAllowed = false;
+    // ModifyAllowed = false;
     PromotedActionCategories = 'New,Action,Navigation,Process,Request Approval,Approval,Post,Report,Print/send,Check';
     PageType = List;
     SourceTable = "FIN-Receipts Header";
@@ -122,8 +122,8 @@ page 52178743 "FIN-Receipts List"
                     //52178741
                 end;
             }
-            
-            
+
+
         }
 
     }
