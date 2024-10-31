@@ -11,6 +11,85 @@
       <rd:DataSourceID>e2cc513c-ca12-4375-8afd-8be6b2945631</rd:DataSourceID>
     </DataSource>
   </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+        <Field Name="Received_From">
+          <DataField>Received_From</DataField>
+        </Field>
+        <Field Name="Account_Name">
+          <DataField>Account_Name</DataField>
+        </Field>
+        <Field Name="Amount_Recieved">
+          <DataField>Amount_Recieved</DataField>
+        </Field>
+        <Field Name="Amount_RecievedFormat">
+          <DataField>Amount_RecievedFormat</DataField>
+        </Field>
+        <Field Name="Cheque_No_">
+          <DataField>Cheque_No_</DataField>
+        </Field>
+        <Field Name="Document_Date">
+          <DataField>Document_Date</DataField>
+        </Field>
+        <Field Name="Remarks">
+          <DataField>Remarks</DataField>
+        </Field>
+        <Field Name="On_Behalf_Of">
+          <DataField>On_Behalf_Of</DataField>
+        </Field>
+        <Field Name="CompLogo">
+          <DataField>CompLogo</DataField>
+        </Field>
+        <Field Name="CompName">
+          <DataField>CompName</DataField>
+        </Field>
+        <Field Name="NumberText_1_">
+          <DataField>NumberText_1_</DataField>
+        </Field>
+        <Field Name="TIME_PRINTED_____FORMAT_TIME__Control1102755003">
+          <DataField>TIME_PRINTED_____FORMAT_TIME__Control1102755003</DataField>
+        </Field>
+        <Field Name="DATE_PRINTED_____FORMAT_TODAY_0_4__Control1102755004">
+          <DataField>DATE_PRINTED_____FORMAT_TODAY_0_4__Control1102755004</DataField>
+        </Field>
+        <Field Name="logo">
+          <DataField>logo</DataField>
+        </Field>
+        <Field Name="CName">
+          <DataField>CName</DataField>
+        </Field>
+        <Field Name="Cname2">
+          <DataField>Cname2</DataField>
+        </Field>
+        <Field Name="Address">
+          <DataField>Address</DataField>
+        </Field>
+        <Field Name="Address2">
+          <DataField>Address2</DataField>
+        </Field>
+        <Field Name="Email">
+          <DataField>Email</DataField>
+        </Field>
+        <Field Name="Imprest_No">
+          <DataField>Imprest_No</DataField>
+        </Field>
+        <Field Name="Url">
+          <DataField>Url</DataField>
+        </Field>
+        <Field Name="Account_No_">
+          <DataField>Account_No_</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -353,20 +432,11 @@
                     </Style>
                   </TextRun>
                   <TextRun>
-                    <Value>For </Value>
+                    <Value>For KUTRRH</Value>
                     <Style>
                       <FontStyle>Italic</FontStyle>
                       <FontFamily>Cambria</FontFamily>
                       <FontSize>14pt</FontSize>
-                    </Style>
-                  </TextRun>
-                  <TextRun>
-                    <Value>CUEA</Value>
-                    <Style>
-                      <FontStyle>Italic</FontStyle>
-                      <FontFamily>Cambria</FontFamily>
-                      <FontSize>14pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -544,6 +614,12 @@
       </Page>
     </ReportSection>
   </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -583,83 +659,4 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Fields>
-        <Field Name="No_">
-          <DataField>No_</DataField>
-        </Field>
-        <Field Name="Received_From">
-          <DataField>Received_From</DataField>
-        </Field>
-        <Field Name="Account_Name">
-          <DataField>Account_Name</DataField>
-        </Field>
-        <Field Name="Amount_Recieved">
-          <DataField>Amount_Recieved</DataField>
-        </Field>
-        <Field Name="Amount_RecievedFormat">
-          <DataField>Amount_RecievedFormat</DataField>
-        </Field>
-        <Field Name="Cheque_No_">
-          <DataField>Cheque_No_</DataField>
-        </Field>
-        <Field Name="Document_Date">
-          <DataField>Document_Date</DataField>
-        </Field>
-        <Field Name="Remarks">
-          <DataField>Remarks</DataField>
-        </Field>
-        <Field Name="On_Behalf_Of">
-          <DataField>On_Behalf_Of</DataField>
-        </Field>
-        <Field Name="CompLogo">
-          <DataField>CompLogo</DataField>
-        </Field>
-        <Field Name="CompName">
-          <DataField>CompName</DataField>
-        </Field>
-        <Field Name="NumberText_1_">
-          <DataField>NumberText_1_</DataField>
-        </Field>
-        <Field Name="TIME_PRINTED_____FORMAT_TIME__Control1102755003">
-          <DataField>TIME_PRINTED_____FORMAT_TIME__Control1102755003</DataField>
-        </Field>
-        <Field Name="DATE_PRINTED_____FORMAT_TODAY_0_4__Control1102755004">
-          <DataField>DATE_PRINTED_____FORMAT_TODAY_0_4__Control1102755004</DataField>
-        </Field>
-        <Field Name="logo">
-          <DataField>logo</DataField>
-        </Field>
-        <Field Name="CName">
-          <DataField>CName</DataField>
-        </Field>
-        <Field Name="Cname2">
-          <DataField>Cname2</DataField>
-        </Field>
-        <Field Name="Address">
-          <DataField>Address</DataField>
-        </Field>
-        <Field Name="Address2">
-          <DataField>Address2</DataField>
-        </Field>
-        <Field Name="Email">
-          <DataField>Email</DataField>
-        </Field>
-        <Field Name="Imprest_No">
-          <DataField>Imprest_No</DataField>
-        </Field>
-        <Field Name="Url">
-          <DataField>Url</DataField>
-        </Field>
-        <Field Name="Account_No_">
-          <DataField>Account_No_</DataField>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-    </DataSet>
-  </DataSets>
 </Report>
